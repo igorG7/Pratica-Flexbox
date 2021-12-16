@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #D6E1FF;
+}
+
+body,input,button{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1,h4{
+    color: var(--azul-escuro);
+}
+
+h1{
+    margin: 20px 0 0 0;
+}
+
+h4{
+    margin: 4px;
+}
+
+p{
+    width: 80%;
+    font-size: 16px;
+    color: var(--azul-dessaturado);
+}
+
+a{ 
+    color: var(--azul-claro);
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--azul-dessaturado);
+}
+
+span{
+    color: var(--azul-dessaturado);
+}
+
+:root {
+    --azul-palido: hsl(225, 100%, 94%);
+    --azul-claro: hsl(245, 75%, 52%);
+    
+    --azul-muito-claro: hsl(228, 79%, 96%);
+    --azul-dessaturado: hsl(224, 23%, 55%);
+    --azul-escuro: hsl(223, 47%, 23%);   
+}
+
+.container{
+    width: 450px;
+    height: 640px;
+    background-color: #FFFFFF;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.container .image-container .image-top{
+    border-radius: 20px 20px 0 0;    
+}
+
+.container .order-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.container .order-container .pay-options-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 80px;
+    margin-top: 30px;
+    background-color:var(--azul-muito-claro);
+    border-radius: 10px;
+}
+
+.order-container .pay-options-container .plan-container{
+margin: 0 60px 0 10px
+}
+
+.container .order-container .buttons-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.container .order-container .buttons-container input{
+    width: 300px;
+    height: 40px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+}
+
+.container .order-container .buttons-container .pay{
+    box-shadow: 0px 15px 10px 0px rgba(0, 0, 0, 0.178);
+    background-color: var(--azul-claro);
+    color: white;
+    cursor: pointer;
+}
+.container .order-container .buttons-container .pay:hover{
+    background-color: var(--azul-escuro);
+}
+
+.container .order-container .buttons-container .cancel{
+    background-color: transparent;
+    color: var(--azul-dessaturado);
+    cursor: pointer;
+}
+
+.container .order-container .buttons-container .cancel:hover{
+    color: var(--azul-escuro);
+}
+
