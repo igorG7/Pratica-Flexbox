@@ -1,6 +1,7 @@
 # Pratica-Flexbox
- 
- Eta é uma solução para aperfeiçoamento da prática com Flexbox no css.
+  
+ ## Visão Geral
+ Esta é uma solução para aperfeiçoamento da prática com Flexbox no css.
  
  ![2021-12-16](https://user-images.githubusercontent.com/78181968/146418186-1c6e4ea6-330c-4780-9959-b07b93e9fd11.png)
  ![2021-12-16 (1)](https://user-images.githubusercontent.com/78181968/146418596-ffc9eb91-7284-4b82-afb5-ee996fc21f40.png)
